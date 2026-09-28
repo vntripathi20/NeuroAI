@@ -1,0 +1,64 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg
+build/
+dist/
+
+# ---- Environment / secrets ----
+.env
+.env.local
+.env.*.local
+*.local
+
+# ---- Node / Next.js ----
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+frontend/next-env.d.ts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ---- Data & experiment artifacts (never commit real data or trained weights) ----
+data/raw/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+
+results/**/*
+!results/.gitkeep
+!results/README.md
+
+experiments/runs/
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.pkl
+*.joblib
+
+# ---- Notebooks ----
+.ipynb_checkpoints/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# ---- Logs ----
+*.log
+logs/

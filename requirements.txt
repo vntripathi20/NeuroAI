@@ -1,0 +1,13 @@
+# Runtime dependencies for the current development phase (backend API skeleton only).
+#
+# Intentionally minimal: acoustic feature extraction (librosa, parselmouth),
+# linguistic analysis (spaCy, nltk), modeling (scikit-learn, torch), and
+# explainability (shap) libraries are NOT included yet. They will be added
+# incrementally, module by module, as those components are actually
+# implemented — not speculatively.
+
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic==2.10.4
+pydantic-settings==2.7.1
+python-dotenv==1.0.1

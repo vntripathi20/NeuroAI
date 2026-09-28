@@ -1,5 +1,4 @@
 # NeuroAI
-
 NeuroAI is a student research project investigating whether measurable
 characteristics of human speech — both **acoustic** (pitch, jitter,
 shimmer, MFCCs, speech rate, pauses, spectral features, etc.) and

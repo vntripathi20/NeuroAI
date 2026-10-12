@@ -1,0 +1,10 @@
+numpy
+pandas
+librosa
+praat-parselmouth
+matplotlib
+soundfile
+scikit-learn
+shap
+streamlit
+ucimlrepo

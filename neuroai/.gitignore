@@ -1,0 +1,19 @@
+# Python defaults
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+build/
+dist/
+
+# Audio data
+data/raw/*
+!data/raw/.gitkeep
+*.wav
+*.mp3
+*.flac
+
+# OS
+.DS_Store
